@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+      <PropertyGroup>
+        <TargetFramework>net472</TargetFramework>
+      </PropertyGroup>
+      <ItemGroup>
+        <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.7" />
+        <PackageReference Include="Microsoft.AspNet.Razor" Version="3.2.7" />
+        <PackageReference Include="Microsoft.AspNet.WebPages" Version="3.2.7" />
+        <PackageReference Include="Microsoft.Web.Infrastructure" Version="1.0.0.0" />
+        <!-- Other necessary packages for Entity Framework, etc. would go here -->
+      </ItemGroup>
+    </Project>
